@@ -1,0 +1,6 @@
+
+A summary of findings and link to notebook
+All models have the same score (accuracy). However, variability is noticed in precision, recall and AUC. Although it did not have the highest precision, I would choose the decision tree model as it had the highest recall and AUC scores.
+A classification using decision tree with criterion = gini, max depth = 8, min samples leaf = 5, min samples split = 0.01 will assure that the false negatives are minimal. As a result, the minimum number of potential customers for a term deposit subscription will be missed.
+Limitations:* A low recall score means high number of false negatives which can be a result of imbalanced class.* The model might be overfitted* Using decision tree classifier had the longest computation time compared to other classifiers.
+RecommendationsIdentifying important features to include in the model would improve the model scores and prevent overfitting.
